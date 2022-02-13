@@ -1,0 +1,181 @@
+@import 'null.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+	font-family: lato, sans-serif;
+}
+
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+}
+.container{
+	max-width: 810px;
+	margin: 0 auto;
+}
+header{
+	border: 1px dashed black;
+	background: url(../img/angrybird_.jpg) right/ contain no-repeat, url(../img/angrybird_.jpg) left/ contain no-repeat, url(../img/kirpich.jpg) 0 0/ contain repeat;
+	min-height:92px;
+	margin:0 0 80px 0 ;
+}
+p.header.text{
+	max-height:30px;
+	padding: 38px 0;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 10px -10px 20px  rgba(255, 0, 0, 0.85);
+}
+h1.main.title{
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 1.3;
+	color: #1E212C;
+	margin-bottom: 26px;
+}
+h1 span{
+	text-transform: uppercase;
+}
+ul.main.list{
+	margin-bottom: 12px;
+}
+li.anchor{
+	font-size: 16px;
+	line-height: 1.625;
+	display: inline-block;
+}
+li.section-item{
+	background: url(../img/article.svg) 0 4px no-repeat;
+	padding: 0 0 0 24px;
+}
+li.title-item{
+	font-weight: 700;
+	background: url(../img/divider.svg) 0 4px no-repeat;
+	margin-left: 12px;
+	padding: 0 0 0 12px;
+}
+span.main.section-name{
+	color: #424551;
+}
+span.main.active{
+	color: #FF3F3A;
+}
+ul.main.read-date-list{
+	margin-bottom: 40px;
+}
+li.calendar-item{
+	background: url(../img/kalendar.svg) 0 4.5px no-repeat;
+	padding: 0 0 0 24px;
+	color: #787A80;
+}
+li.time-item{
+	background: url(../img/Clock.svg) 0 4.5px no-repeat;
+	padding: 0 0 0 24px;
+	margin-left: 24px;
+	color: #787A80;
+}
+img.main.image{
+	margin: 0 0 60px;
+}
+p.main.paragraph-one{
+	font-weight: bold;
+	font-size: 20px;
+	line-height:1.5;
+	color: #1E212C;
+	margin: 0 0 24px;
+}
+p.main.paragraph-two{
+	margin: 0 0 26px;
+}
+p.main.paragraph-three{
+	margin: 0 0 48px;
+}
+p.paragraph{
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.625;
+	color: #424551;
+	}
+p.main.note{
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1E212C;
+	margin: 0 0 48px 0;
+	padding-left: 58px;
+	background: url(../img/quote.svg) 0 0 no-repeat, url(../img/quote.svg) 18px 0 no-repeat;
+	}
+p.paragraph-five{
+		margin:0 0 24px;
+	}
+ul.main.content-list{
+	font-weight: normal;
+	font-size: 16px;
+	color: #424551;
+}
+li.content-item{
+	padding:0 0 0 32px;
+	margin: 0 0 4px 0;
+	line-height: 1.625;
+	background: url(../img/okejka.svg) 0 5px no-repeat;
+}
+li.content-item.last{
+	margin: 0 0 24px 0;
+}
+p.paragraph-six{
+	margin-bottom: 50px;
+}
+
+p.footer{
+	font-size: 50px;
+	text-align: center;
+	/*opacity: 0;*/
+	visibility: hidden;
+}
+footer{
+	background: url(../img/angrybird_.jpg) left /contain no-repeat, url(../img/angrybird_.jpg) right /contain no-repeat,  url(../img/pig_from_angry_biords_games.png) 230px 0 /contain repeat, rgba(255, 183, 0, 0.433);
+	margin-bottom: 100px;
+	box-shadow: 10px 10px 10px 30px rgba(255, 0, 0, 0.419), 25px 25px 25px 50px rgba(255, 255, 0, 0.535);
+	outline: 10px dotted green;
+}
+
+/* ==============part2================== */
+
+.homework-two-container{
+	max-width: 390px;
+	margin: 0 auto;
+}
+h6.homework-two-subtitle{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1E212C;
+	margin-bottom: 8px;
+}
+h1.homework-two-title{
+	font-size: 46px;
+	font-weight:bold;
+	line-height: 1.3;
+	text-transform: capitalize;
+	color: #1E212C;
+	margin: 0 0 40px;
+}
+
+li.homework-two.content-item{
+	margin: 0 0 12px 0;
+}
+li.homework-two.content-item.last{
+	margin: 0 0 48px 0;
+}
+.homework-two.botton span{
+	display: inline-block;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	border-radius: 4px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #FFFFFF;
+	padding: 15px 32px;
+}
